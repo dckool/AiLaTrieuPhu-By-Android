@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nhom17.iuh.ailatrieuphu.NguoiThanActivity">
+
+    <ImageButton
+        android:id="@+id/imgbtn_3"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_x="199dp"
+        android:layout_y="16dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/map"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_1"
+        android:layout_width="84dp"
+        android:layout_height="85dp"
+        android:layout_x="11dp"
+        android:layout_y="15dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/longgg"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <ImageButton
+        android:id="@+id/imgbtn_2"
+        android:layout_width="93dp"
+        android:layout_height="82dp"
+        android:layout_x="99dp"
+        android:layout_y="17dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/qqq"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="223dp"
+        android:layout_y="108dp"
+        android:gravity="center"
+        android:text="Mặp"
+        android:textColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="112dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="128dp"
+        android:layout_y="108dp"
+        android:gravity="center"
+        android:text="Vũ ml"
+        android:textColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="35dp"
+        android:layout_y="105dp"
+        android:gravity="center"
+        android:text="Lông"
+        android:textColor="@android:color/holo_red_dark"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="108dp" />
+</AbsoluteLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nhom17.iuh.ailatrieuphu.CauTraLoiNTActivity">
+
+    <TextView
+        android:id="@+id/lbl_TL"
+        android:layout_width="262dp"
+        android:layout_height="47dp"
+        android:layout_weight="1"
+        android:layout_x="6dp"
+        android:layout_y="10dp"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="14sp" />
+</AbsoluteLayout>

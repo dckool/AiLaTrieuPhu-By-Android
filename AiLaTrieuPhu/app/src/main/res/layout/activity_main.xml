@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen"
+    android:orientation="vertical"
+    tools:context="nhom17.iuh.ailatrieuphu.MainActivity">
+
+    <TextView
+        android:id="@+id/lb_CauHoi"
+        android:layout_width="592dp"
+        android:layout_height="85dp"
+        android:layout_x="25dp"
+        android:layout_y="96dp"
+        android:background="@android:color/holo_blue_dark"
+        android:gravity="center"
+        android:keyboardNavigationCluster="true"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="145dp" />
+
+    <Button
+        android:id="@+id/btn_DapAn1"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="200dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:hapticFeedbackEnabled="false"
+        android:textColor="@android:color/holo_orange_dark"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/btn_DapAn2"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_x="372dp"
+        android:layout_y="199dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/btn_DapAn3"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="270dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <Button
+        android:id="@+id/btn_DapAn4"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_x="370dp"
+        android:layout_y="266dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:textColor="@android:color/holo_orange_dark"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="188dp" />
+
+    <ImageButton
+        android:id="@+id/btn_Main_TrangChu"
+        android:layout_width="64dp"
+        android:layout_height="60dp"
+        android:layout_x="3dp"
+        android:layout_y="1dp"
+        android:background="@android:color/transparent"
+        android:baselineAlignBottom="true"
+        android:elevation="8dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/homee"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="2dp" />
+
+    <ImageButton
+        android:id="@+id/btn_KhanGia"
+        android:layout_width="65dp"
+        android:layout_height="67dp"
+        android:layout_x="484dp"
+        android:layout_y="14dp"
+        android:background="?attr/colorControlHighlight"
+        android:tooltipText="Gợi ý khán giả"
+        app:srcCompat="@drawable/groupevent"
+        tools:layout_editor_absoluteX="542dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/btn_5050"
+        android:layout_width="71dp"
+        android:layout_height="69dp"
+        android:layout_x="392dp"
+        android:layout_y="14dp"
+        android:background="@android:color/transparent"
+        android:tooltipText="50/50"
+        app:srcCompat="@drawable/ffdd"
+        tools:layout_editor_absoluteX="542dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <ImageButton
+        android:id="@+id/btn_NguoiThan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="566dp"
+        android:layout_y="17dp"
+        android:background="@android:color/transparent"
+        android:tooltipText="Gọi người thân"
+        app:srcCompat="@drawable/kcalll"
+        tools:layout_editor_absoluteX="542dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/lbl_Tien"
+        android:layout_width="195dp"
+        android:layout_height="36dp"
+        android:layout_x="177dp"
+        android:layout_y="6dp"
+        android:gravity="left|center"
+        android:text="0.000 VNĐ"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        tools:layout_editor_absoluteX="436dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="137dp"
+        android:layout_y="13dp"
+        app:srcCompat="@drawable/currency_dollar_yellow"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btn_Main_Cauke"
+        android:layout_width="85dp"
+        android:layout_height="36dp"
+        android:layout_x="281dp"
+        android:layout_y="203dp"
+        android:elevation="5dp"
+        android:text="Câu tiếp theo"
+        android:visibility="gone"
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="64dp" />
+
+    <CheckBox
+        android:id="@+id/chkAmThanh"
+        style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="568dp"
+        android:layout_y="325dp"
+        android:checked="true"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="539dp"
+        android:layout_y="323dp"
+        app:srcCompat="@drawable/sound"
+        tools:layout_editor_absoluteX="529dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+</AbsoluteLayout>

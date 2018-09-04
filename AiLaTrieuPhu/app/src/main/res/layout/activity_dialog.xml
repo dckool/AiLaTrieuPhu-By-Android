@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="nhom17.iuh.ailatrieuphu.DialogActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_x="12dp"
+        android:layout_y="3dp"
+        android:text="TRÒ CHƠI KẾT THÚC !!!"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/lbl_dialog_tien"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_below="@+id/kgkgk"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="18dp"
+        android:layout_x="42dp"
+        android:layout_y="71dp"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/btn_Dialog_OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/kgkgk"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_below="@+id/kgkgk"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="40dp"
+        android:layout_x="50dp"
+        android:layout_y="98dp"
+        android:text="Ok" />
+
+    <TextView
+        android:id="@+id/kgkgk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginStart="47dp"
+        android:layout_x="26dp"
+        android:layout_y="39dp"
+        android:text="Số tiền đạt được là:"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="14dp"
+        android:layout_y="68dp"
+        app:srcCompat="@drawable/currency_dollar_yellow"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="237dp" />
+
+</AbsoluteLayout>
